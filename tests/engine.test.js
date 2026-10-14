@@ -13,3 +13,11 @@ test('soru görseli atlas dışına taşamaz',()=>{assert.throws(()=>validateBan
 test('atlas içindeki soru görseli kabul edilir',()=>{assert.equal(validateBank({schemaVersion:1,questions:[{...q('1'),image:'assets/math.jpg',imageCrop:{x:0,y:0,width:100,height:50,fullWidth:100,fullHeight:100}}]},curriculum,sources).length,1);});
 test('kısa test farklı konuları kapsar ve soru tekrar etmez',()=>{const pool=[...Array.from({length:20},(_,i)=>q('a'+i,'A')),q('b','B'),q('c','C')];const r=selectQuestions(pool,3,()=>0.5);assert.equal(new Set(r.map(x=>x.topic)).size,3);assert.equal(new Set(r.map(x=>x.id)).size,3);assert.equal(pool.length,22);});
 test('tüm sorular seçeneği ve küçük havuz doğru sayıda soru döndürür',()=>{assert.equal(selectQuestions([q('1'),q('2')],0).length,2);assert.equal(selectQuestions([q('1')],20).length,1);assert.equal(selectQuestions([],20).length,0);});
+
+test('numaralı testler 15 sınırını aşmaz ve havuzdaki her soru tam bir kez yer alır',async()=>{
+ const {partitionTests}=await import('../engine.js');const qs=Array.from({length:52},(_,i)=>({id:'q'+String(i).padStart(3,'0')}));
+ const groups=partitionTests(qs);assert.deepEqual(groups.map(g=>g.length),[15,15,15,7]);assert.equal(new Set(groups.flat().map(q=>q.id)).size,52);assert.deepEqual(groups,partitionTests([...qs].reverse()));assert.deepEqual(partitionTests([]),[]);assert.throws(()=>partitionTests(qs,16));
+});
+test('veli raporu yanlışları boşlardan ayırır ve az örnek uyarısını içerir',async()=>{
+ const {parentReport}=await import('../engine.js');const r={title:'Test 2',startedAt:'2026-10-14T10:00:00Z',finishedAt:'2026-10-14T10:01:30Z',total:3,correct:1,wrong:1,blank:1,percent:33,topics:[{topic:'Osmoz',outcome:'BİY.9.2.2',correct:1,wrong:1,blank:1,percent:33,assessment:'Tekrar çalış',references:[{sourceId:'biyoloji',pages:[152]}]}]};const text=parentReport(r,'Öğrenci','Biyoloji');assert.match(text,/1 doğru, 1 yanlış, 1 boş/);assert.match(text,/Osmoz/);assert.match(text,/1 dk 30 sn/);assert.match(text,/3 sorudan az/);
+});

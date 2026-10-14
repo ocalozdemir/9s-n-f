@@ -4,18 +4,24 @@
 
 ## Güncel sürümün kapsamı
 
+0.4.0: MEB çalışma kitabından 51 biyoloji sorusu orijinal görselleri ve basılı 175. sayfadaki resmî cevap anahtarıyla eklendi.
+
 - Matematik 1–2, coğrafya, kimya, biyoloji, fizik, tarih ve Türk dili ve edebiyatı: 7 ders, 8 ders kitabı ve matematik için ek MEB çalışma soruları kaynağı.
 - MEB'in program sayfalarından alınmış 30 ünite/tema.
 - Sekiz kitabın 2.008 PDF sayfasının dijital metin dizini; sayfa metinleri `ingestion/source-text/` altında sıkıştırılmış `.json.gz` dosyaları olarak tutulur. Bunlar ham kaynak metinleridir, soru olarak kullanılmaz.
-- Soru bankasında 280 soru: matematik 146, coğrafya 38, kimya 19, biyoloji 15, fizik 23, tarih 16, edebiyat 23. Yedi dersin 30 ünite/temasının tümünde test açılabilir. Yeni ünitelerde 5–8 soruluk ilk gruplar vardır; bütün kazanımların veya kitap sorularının tamamlandığı anlamına gelmez.
+- Soru bankasında 331 soru: matematik 146, coğrafya 38, kimya 19, biyoloji 66, fizik 23, tarih 16, edebiyat 23. Yedi dersin 30 ünite/temasının tümünde test açılabilir. Yeni ünitelerde 5–8 soruluk ilk gruplar vardır; bütün kazanımların veya kitap sorularının tamamlandığı anlamına gelmez.
 - Matematik: Sayılar 14, Nicelikler ve Değişimler 52, Geometrik Şekiller 14, Eşlik ve Benzerlik 14, Algoritma ve Bilişim 20, İstatistiksel Araştırma Süreci 17, Veriden Olasılığa 15 soru.
-- 10 soru, 20 soru veya tüm sorularla test seçilebilir. Kısa testlerde konular sırayla örneklenir; sorular rastgele sıralanır.
+- Her test en fazla 15 sorudur. Havuzlar kimliğe göre sabit sıralamayla Test 1, Test 2… olarak bölünür; aynı havuz içindeki testler soru tekrar etmez. Sorular test içinde rastgele sıralanır.
 - Ek çalışma kaynağından güncel temalara eşleştirilen 75 soru, orijinal görselleri ve PDF’nin basılı 173. sayfasındaki MEB cevap anahtarıyla birlikte işlendi. Eski ünite numaraları, sitedeki güncel tema numaralarıyla karıştırılmamalıdır.
 - Sorular kaynak kitabın etkinliklerinden veya değerlendirme bölümlerinden alınmıştır. Kısaltma, şekli metne dönüştürme, eşleştirmeyi seçenekli soruya çevirme gibi değişiklikler `provenance: adapted` olarak belirtilmiştir.
 - Ek çalışma sorularının doğru seçenekleri PDF’deki MEB anahtarıyla karşılaştırılmıştır. Ders kitabından uyarlananların cevapları bağımsız çözüm yoluyla kontrol edilmiştir; EBA anahtarları giriş gerektirdiğinden bu grupta resmî anahtar karşılaştırması yapılmamıştır. Her sorudaki `answerVerification` ve `reviewNote` bu ayrımı belirtir. Açıklamalar MEB’in resmî çözümleri değildir; bazı sorularda çözüm yöntemi/ipucu sunulur.
 - 1. ve 2. dönem 1. ve 2. yazılı alanları mevcut, ancak kapsam tablosu ve yazılı soru dosyaları sağlanana kadar kapalıdır.
 
 Bu sürüm kitapların tamamındaki soruları kapsamaz. Açık uçlu, birden fazla doğru cevaplı veya görsel yorumu gerektiren sorular kontrol edilmeden otomatik puanlamaya alınmamalıdır. Öğrenme çıktısıyla eşleştirme, o çıktının tüm becerilerini tek bir testle ölçmek anlamına gelmez.
+
+## Veli raporu
+
+Sonuç ekranında öğrenci adı ve veli adresiyle e-posta taslağı açılabilir. Otomatik gönderim için ayrı Cloudflare Worker + Resend bağlantısı hazırlanmıştır; henüz yapılandırılmadı/yayımlanmadı. Kurulum: `mail-worker/README.md`. API anahtarları GitHub Pages içine konulmaz.
 
 ## Çalıştırma
 

@@ -1,0 +1,7 @@
+{
+  "name": "atolye9-parent-mail",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-14",
+  "vars": {"ALLOWED_ORIGIN": "https://ocalozdemir.github.io"},
+  "ratelimits": [{"name": "MAIL_LIMIT", "namespace_id": "940015", "simple": {"limit": 3, "period": 60}}]
+}

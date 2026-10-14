@@ -110,5 +110,21 @@
     "answerKeyPage": 173,
     "answerKeyPdfPage": 174,
     "questionsImported": 75
+  },
+  {
+    "id": "meb-calisma-biyoloji",
+    "subject": "Biyoloji",
+    "title": "MEB 9. Sınıf Çalışma Soruları — Biyoloji",
+    "url": "https://kilisodm.meb.gov.tr/www/5-6-7-ve-9-sinif-duzeylerinde-calisma-sorulari-yayimlandi/icerik/75",
+    "pdfUrl": "https://cdn.eba.gov.tr/yardimcikaynaklar/2022/01/calismasorulari/9calismaocak.pdf",
+    "grade": 9,
+    "publisher": "MEB / ÖDSGM",
+    "pageCount": 178,
+    "pageOffset": 1,
+    "status": "indexed",
+    "editionNote": "Eski program kaynağı; güncel temalara uygun biyoloji soruları seçilmiştir.",
+    "answerKeyPage": 175,
+    "answerKeyPdfPage": 176,
+    "questionsImported": 51
   }
 ]

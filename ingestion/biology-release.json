@@ -1,0 +1,25 @@
+{
+  "version": "0.4.0",
+  "addedQuestions": 51,
+  "answerKeys": {
+    "1": "ECBAECCBEADDBAEADA",
+    "2": "DAECEDCCEBEDBCBACBAADD",
+    "3": "DBAACEDABCBCBDEBDECE"
+  },
+  "excluded": {
+    "1": [
+      16,
+      17,
+      18
+    ],
+    "3": [
+      2,
+      3,
+      4,
+      5,
+      19,
+      20
+    ]
+  },
+  "mappingNote": "Unit 1 -> Yaşam; unit 2 -> Organizasyon (21,22 -> Yaşam); unit 3 -> Organizasyon."
+}

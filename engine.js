@@ -50,3 +50,23 @@ export function validateBank(bank,curriculum,sources,existing=[]){
   }
   return bank.questions;
 }
+
+// Stable membership keeps Test 1 / Test 2 meaningful across visits and retries.
+export function partitionTests(questions,maxSize=15){
+  if(!Number.isInteger(maxSize)||maxSize<1||maxSize>15)throw Error('Test başına soru sayısı 1–15 olmalı.');
+  const ordered=[...questions].sort((a,b)=>a.id<b.id?-1:a.id>b.id?1:0);
+  const groups=[];for(let i=0;i<ordered.length;i+=maxSize)groups.push(ordered.slice(i,i+maxSize));return groups;
+}
+export function parentReport(result,studentName,subjectName){
+  const seconds=Math.max(0,Math.round((Date.parse(result.finishedAt)-Date.parse(result.startedAt))/1000));
+  return [
+    '9. Atölye — Test Sonuç Raporu',
+    `Öğrenci: ${studentName||'Belirtilmedi'}`,`Ders: ${subjectName}`,`Test: ${result.title}`,
+    `Tarih: ${new Date(result.finishedAt).toLocaleString('tr-TR',{timeZone:'Europe/Istanbul'})}`,
+    `Sonuç: ${result.correct} doğru, ${result.wrong} yanlış, ${result.blank} boş / ${result.total} soru`,
+    `Başarı: %${result.percent}`,`Süre: ${Math.floor(seconds/60)} dk ${seconds%60} sn`,'',
+    'Konu değerlendirmesi:',...result.topics.map(t=>`${t.topic} (${t.outcome}): ${t.correct} doğru, ${t.wrong} yanlış, ${t.blank} boş — %${t.percent}; ${t.assessment}`),'',
+    'Tekrar önerilen konular:',...result.topics.filter(t=>t.wrong||t.blank).map(t=>`• ${t.topic}: ${(t.references||[]).map(r=>r.sourceId+' s. '+r.pages.join(', ')).join('; ')}`),
+    '', 'Bu rapor yalnızca çözülen soruları değerlendirir. Bir konuda 3 sorudan az varsa değerlendirme sınırlıdır.','https://ocalozdemir.github.io/9s-n-f/'
+  ].join('\n');
+}
