@@ -9,7 +9,7 @@
     "publisher": "MEB",
     "status": "indexed",
     "pageCount": 204,
-    "questionsImported": 1
+    "questionsImported": 22
   },
   {
     "id": "matematik2",
@@ -21,7 +21,7 @@
     "publisher": "MEB",
     "status": "indexed",
     "pageCount": 237,
-    "questionsImported": 4
+    "questionsImported": 49
   },
   {
     "id": "cografya",
@@ -94,5 +94,21 @@
     "status": "indexed",
     "pageCount": 317,
     "questionsImported": 3
+  },
+  {
+    "id": "meb-calisma-matematik",
+    "subject": "Matematik",
+    "title": "MEB 9. Sınıf Çalışma Soruları — Matematik",
+    "url": "https://kilisodm.meb.gov.tr/www/5-6-7-ve-9-sinif-duzeylerinde-calisma-sorulari-yayimlandi/icerik/75",
+    "pdfUrl": "https://cdn.eba.gov.tr/yardimcikaynaklar/2022/01/calismasorulari/9calismaocak.pdf",
+    "grade": 9,
+    "publisher": "MEB / ÖDSGM",
+    "pageCount": 178,
+    "pageOffset": 1,
+    "status": "indexed",
+    "editionNote": "Ünite düzeni güncel kitaptan farklıdır. Yalnızca güncel temalarla eşleştirilen matematik soruları kullanılır.",
+    "answerKeyPage": 173,
+    "answerKeyPdfPage": 174,
+    "questionsImported": 75
   }
 ]

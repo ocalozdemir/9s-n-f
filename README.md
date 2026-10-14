@@ -2,14 +2,17 @@
 
 9. sınıf MEB ders kitapları ve Türkiye Yüzyılı Maarif Modeli konu yapısıyla hazırlanan bağımsız çalışma sitesi. Resmî MEB uygulaması değildir.
 
-## İlk sürümün kapsamı
+## Güncel sürümün kapsamı
 
-- Matematik 1–2, coğrafya, kimya, biyoloji, fizik, tarih ve Türk dili ve edebiyatı: 7 ders, 8 kaynak kitap.
+- Matematik 1–2, coğrafya, kimya, biyoloji, fizik, tarih ve Türk dili ve edebiyatı: 7 ders, 8 ders kitabı ve matematik için ek MEB çalışma soruları kaynağı.
 - MEB'in program sayfalarından alınmış 30 ünite/tema.
 - Sekiz kitabın 2.008 PDF sayfasının dijital metin dizini; sayfa metinleri `ingestion/source-text/` altında sıkıştırılmış `.json.gz` dosyaları olarak tutulur. Bunlar ham kaynak metinleridir, soru olarak kullanılmaz.
-- İlk soru bankasında 36 soru: matematik 5, coğrafya 8, kimya 6, biyoloji 7, fizik 5, tarih 2, edebiyat 3.
+- Soru bankasında 177 soru: matematik 146, coğrafya 8, kimya 6, biyoloji 7, fizik 5, tarih 2, edebiyat 3. Matematiğin yedi teması da kullanılabilir.
+- Matematik: Sayılar 14, Nicelikler ve Değişimler 52, Geometrik Şekiller 14, Eşlik ve Benzerlik 14, Algoritma ve Bilişim 20, İstatistiksel Araştırma Süreci 17, Veriden Olasılığa 15 soru.
+- 10 soru, 20 soru veya tüm sorularla test seçilebilir. Kısa testlerde konular sırayla örneklenir; sorular rastgele sıralanır.
+- Ek çalışma kaynağından güncel temalara eşleştirilen 75 soru, orijinal görselleri ve PDF’nin basılı 173. sayfasındaki MEB cevap anahtarıyla birlikte işlendi. Eski ünite numaraları, sitedeki güncel tema numaralarıyla karıştırılmamalıdır.
 - Sorular kaynak kitabın etkinliklerinden veya değerlendirme bölümlerinden alınmıştır. Kısaltma, şekli metne dönüştürme, eşleştirmeyi seçenekli soruya çevirme gibi değişiklikler `provenance: adapted` olarak belirtilmiştir.
-- Cevaplar kitap içeriği ve çözüm yoluyla kontrol edilmiştir. Kitaplardaki EBA cevap anahtarı bağlantıları oturum açmayı gerektirdiğinden resmî anahtarla karşılaştırılmamıştır. Açıklamalar MEB'in resmî çözümleri değildir.
+- Ek çalışma sorularının doğru seçenekleri PDF’deki MEB anahtarıyla karşılaştırılmıştır. Ders kitabından uyarlananların cevapları bağımsız çözüm yoluyla kontrol edilmiştir; EBA anahtarları giriş gerektirdiğinden bu grupta resmî anahtar karşılaştırması yapılmamıştır. Her sorudaki `answerVerification` ve `reviewNote` bu ayrımı belirtir. Açıklamalar MEB’in resmî çözümleri değildir; bazı sorularda çözüm yöntemi/ipucu sunulur.
 - 1. ve 2. dönem 1. ve 2. yazılı alanları mevcut, ancak kapsam tablosu ve yazılı soru dosyaları sağlanana kadar kapalıdır.
 
 Bu sürüm kitapların tamamındaki soruları kapsamaz. Açık uçlu, birden fazla doğru cevaplı veya görsel yorumu gerektiren sorular kontrol edilmeden otomatik puanlamaya alınmamalıdır. Öğrenme çıktısıyla eşleştirme, o çıktının tüm becerilerini tek bir testle ölçmek anlamına gelmez.
@@ -43,7 +46,7 @@ Sitedeki **Soru bankası** bölümünden kaynak şablonu ve soru şablonu indiri
 
 Her soru benzersiz `id`, ders/ünite kimliği, konu, MEB öğrenme çıktısı kodu, soru metni, seçenekler, sıfır tabanlı cevap indeksi, açıklama, kaynak kimliği, kitap sayfası, kaynak türü ve `status: verified` alanlarını içerir. `page` basılı kitap sayfasıdır. Kayıtların kimliğini koru: daha önce çözülmüş testlerin soru ve cevapları sonuç kaydında anlık görüntü olarak tutulur.
 
-Görseller `assets/` altında olmalı. Yeni kaynağın kullanımı için gerekli izinleri kontrol et. İçe aktarma yinelenen kimlikleri ve birebir yinelenen soru metinlerini reddeder; farklı biçimde yazılan aynı soru için editoryal kontrol gerekir.
+Görseller `assets/` altında olmalı. Matematik soru görselleri JPEG atlaslarda tutulur ve `imageCrop` alanıyla yalnız ilgili soru gösterilir; atlas koordinatları doğrulanır. Yeni kaynağın kullanımı için gerekli izinleri kontrol et. İçe aktarma yinelenen kimlikleri ve birebir yinelenen soru metinlerini reddeder; farklı biçimde yazılan aynı soru için editoryal kontrol gerekir.
 
 ## Raporlama ve kayıt
 
@@ -57,4 +60,4 @@ Rapor JSON olarak indirilebilir; tarayıcının yazdır ekranından PDF olarak k
 
 ## Doğrulama
 
-`npm test`: puanlama, boş cevap, az soru, konu sıralama, farklı kitapların sayfa referansları ve geçersiz/tekrarlanan soru kayıtlarını sınar. `npm run build`: mevcut bütün soru kayıtlarını ve sınav kapsam referanslarını doğrular. Tarayıcıda görsel kontrol bu çalışma ortamında yapılmamıştır.
+`npm test`: puanlama, boş cevap, az soru, konu sıralama, farklı kitapların sayfa referansları ve geçersiz/tekrarlanan soru kayıtlarını sınar. `npm run build`: mevcut bütün soru kayıtlarını ve sınav kapsam referanslarını doğrular. Matematikteki 75 soru görseli kontakt sayfalar üzerinden incelenmiş, kesir üstleri ve şekillerin kırpılmaması kontrol edilmiştir. Canlı tarayıcı arayüzü bu çalışma ortamında test edilmemiştir.

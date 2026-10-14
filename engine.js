@@ -1,3 +1,12 @@
+export function selectQuestions(questions,limit=20,random=Math.random){
+  const shuffle=arr=>{const out=[...arr];for(let i=out.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;};
+  const target=limit>0?Math.min(limit,questions.length):questions.length;
+  const groups=new Map();
+  for(const q of questions){const k=q.topic+'|'+q.outcome;if(!groups.has(k))groups.set(k,[]);groups.get(k).push(q);}
+  const pools=shuffle([...groups.values()].map(shuffle));const selected=[];
+  while(selected.length<target){for(const pool of pools){if(pool.length)selected.push(pool.pop());if(selected.length===target)break;}}
+  return shuffle(selected);
+}
 export function evaluate(questions,answers){
   const groups=new Map();let correct=0,wrong=0,blank=0;
   const rows=questions.map(q=>{
@@ -33,6 +42,10 @@ export function validateBank(bank,curriculum,sources,existing=[]){
     if(ids.has(q.id))throw Error(`Tekrarlanan soru kimliği: ${q.id}`);ids.add(q.id);
     const fingerprint=q.subject+'|'+q.stem.trim().toLocaleLowerCase('tr');if(fingerprints.has(fingerprint))throw Error(`Tekrarlanan soru metni: ${q.id}`);fingerprints.add(fingerprint);
     if(q.image&&!/^assets\/[a-zA-Z0-9_./-]+$/.test(q.image))throw Error('Görsel yolu assets/ altında olmalı.');
+    if(q.imageCrop){
+      const c=q.imageCrop;
+      if(!q.image||['x','y','width','height','fullWidth','fullHeight'].some(k=>!Number.isInteger(c[k]))||c.x<0||c.y<0||c.width<=0||c.height<=0||c.x+c.width>c.fullWidth||c.y+c.height>c.fullHeight)throw Error(`Görsel kırpma alanı geçersiz: ${q.id}`);
+    }
     if(!['verbatim','adapted'].includes(q.provenance))throw Error('Kaynak türü verbatim veya adapted olmalı.');
   }
   return bank.questions;
