@@ -1,0 +1,98 @@
+[
+  {
+    "id": "matematik1",
+    "url": "https://tymm.meb.gov.tr/kitap/41/matematik-9sinif-ders-kitabi-1kitap",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/matematik-9sinif-ders-kitabi-1kitap_20261006_102913_502.pdf",
+    "pdfSha256": "79659cf39311df84b5231377a8dc51b7a9bdde3bbc6c83d959fadb714d3bf50d",
+    "bytes": 29254468,
+    "pages": 204,
+    "textExtraction": "digital-text",
+    "questionExtraction": "partial",
+    "answerKeyStatus": "EBA-sign-in-required",
+    "questionsImported": 1
+  },
+  {
+    "id": "matematik2",
+    "url": "https://tymm.meb.gov.tr/kitap/42/matematik-9sinif-ders-kitabi-2kitap",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/matematik-9sinif-ders-kitabi-2kitap_20261006_104711_394.pdf",
+    "pdfSha256": "653436c665c360ad5040030226e08713f6f53fe6f7a538a2f481a95d50587340",
+    "bytes": 19746353,
+    "pages": 237,
+    "textExtraction": "digital-text",
+    "questionExtraction": "partial",
+    "answerKeyStatus": "EBA-sign-in-required",
+    "questionsImported": 4
+  },
+  {
+    "id": "cografya",
+    "url": "https://tymm.meb.gov.tr/kitap/37/cografya-dersi-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/cografya-dersi-9sinif-ders-kitabi_20260907_201524_569.pdf",
+    "pdfSha256": "3ca6f37b45c5178be4ccdbbd2122329e30c49337e2f09981bdecf9acc06cb30b",
+    "bytes": 100594049,
+    "pages": 244,
+    "textExtraction": "digital-text",
+    "questionExtraction": "partial",
+    "answerKeyStatus": "EBA-sign-in-required",
+    "questionsImported": 8
+  },
+  {
+    "id": "kimya",
+    "url": "https://tymm.meb.gov.tr/kitap/39/kimya-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/kimya-9sinif-ders-kitabi_20260908_105401_982.pdf",
+    "pdfSha256": "428aafc049fc5985987452410a599a8762060b710d384df3b534a27025b4dc4a",
+    "bytes": 176095562,
+    "pages": 287,
+    "textExtraction": "digital-text",
+    "questionExtraction": "partial",
+    "answerKeyStatus": "EBA-sign-in-required",
+    "questionsImported": 6
+  },
+  {
+    "id": "biyoloji",
+    "url": "https://tymm.meb.gov.tr/kitap/36/biyoloji-dersi-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/biyoloji-dersi-9sinif-ders-kitabi_20261006_220008_456.pdf",
+    "pdfSha256": "6ba1b122ed5095c9aff26053cf48060fc409c74514a2adab322e366710e6fa0d",
+    "bytes": 98733656,
+    "pages": 184,
+    "textExtraction": "digital-text",
+    "questionExtraction": "partial",
+    "answerKeyStatus": "EBA-sign-in-required",
+    "questionsImported": 7
+  },
+  {
+    "id": "fizik",
+    "url": "https://tymm.meb.gov.tr/kitap/38/fizik-dersi-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/fizik-dersi-9sinif-ders-kitabi_20261006_194425_076.pdf",
+    "pdfSha256": "73fb7c8ff692f260dd5c7a27bbf2ea0b3a01a6af0e7141825d9466903a338ef2",
+    "bytes": 53993588,
+    "pages": 272,
+    "textExtraction": "digital-text",
+    "questionExtraction": "partial",
+    "answerKeyStatus": "EBA-sign-in-required",
+    "questionsImported": 5
+  },
+  {
+    "id": "tarih",
+    "url": "https://tymm.meb.gov.tr/kitap/43/tarih-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/tarih-9sinif-ders-kitabi_20261006_121514_240.pdf",
+    "pdfSha256": "a7bd70d3ddf7ead61f201b10a35079a2d0f87088f5e61bab830cc33a515335fe",
+    "bytes": 59609548,
+    "pages": 263,
+    "textExtraction": "digital-text",
+    "questionExtraction": "partial",
+    "answerKeyStatus": "EBA-sign-in-required",
+    "questionsImported": 2
+  },
+  {
+    "id": "edebiyat",
+    "url": "https://tymm.meb.gov.tr/kitap/45/turk-dili-ve-edebiyati-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/turk-dili-ve-edebiyati-9sinif-ders-kitabi_20261006_100252_162.pdf",
+    "pdfSha256": "b2e3959bbf217c4186f3c4af715a54810d105d5b60bbb8de0ebce31bb0fce7cd",
+    "bytes": 11853752,
+    "pages": 317,
+    "textExtraction": "digital-text",
+    "questionExtraction": "partial",
+    "answerKeyStatus": "EBA-sign-in-required",
+    "questionsImported": 3
+  }
+]

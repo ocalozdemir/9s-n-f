@@ -6,7 +6,7 @@
 
 - Matematik 1–2, coğrafya, kimya, biyoloji, fizik, tarih ve Türk dili ve edebiyatı: 7 ders, 8 kaynak kitap.
 - MEB'in program sayfalarından alınmış 30 ünite/tema.
-- Sekiz kitabın 2.008 PDF sayfasının dijital metin dizini; sayfa metinleri `ingestion/source-text/` altında. Bunlar ham kaynak metinleridir, soru olarak kullanılmaz.
+- Sekiz kitabın 2.008 PDF sayfasının dijital metin dizini; sayfa metinleri `ingestion/source-text/` altında sıkıştırılmış `.json.gz` dosyaları olarak tutulur. Bunlar ham kaynak metinleridir, soru olarak kullanılmaz.
 - İlk soru bankasında 36 soru: matematik 5, coğrafya 8, kimya 6, biyoloji 7, fizik 5, tarih 2, edebiyat 3.
 - Sorular kaynak kitabın etkinliklerinden veya değerlendirme bölümlerinden alınmıştır. Kısaltma, şekli metne dönüştürme, eşleştirmeyi seçenekli soruya çevirme gibi değişiklikler `provenance: adapted` olarak belirtilmiştir.
 - Cevaplar kitap içeriği ve çözüm yoluyla kontrol edilmiştir. Kitaplardaki EBA cevap anahtarı bağlantıları oturum açmayı gerektirdiğinden resmî anahtarla karşılaştırılmamıştır. Açıklamalar MEB'in resmî çözümleri değildir.

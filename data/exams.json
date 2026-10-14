@@ -1,0 +1,282 @@
+[
+  {
+    "id": "matematik-term1-exam1",
+    "subject": "matematik",
+    "kind": "exam1",
+    "term": 1,
+    "title": "1. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "matematik-term1-exam2",
+    "subject": "matematik",
+    "kind": "exam2",
+    "term": 1,
+    "title": "1. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "matematik-term2-exam1",
+    "subject": "matematik",
+    "kind": "exam1",
+    "term": 2,
+    "title": "2. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "matematik-term2-exam2",
+    "subject": "matematik",
+    "kind": "exam2",
+    "term": 2,
+    "title": "2. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "cografya-term1-exam1",
+    "subject": "cografya",
+    "kind": "exam1",
+    "term": 1,
+    "title": "1. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "cografya-term1-exam2",
+    "subject": "cografya",
+    "kind": "exam2",
+    "term": 1,
+    "title": "1. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "cografya-term2-exam1",
+    "subject": "cografya",
+    "kind": "exam1",
+    "term": 2,
+    "title": "2. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "cografya-term2-exam2",
+    "subject": "cografya",
+    "kind": "exam2",
+    "term": 2,
+    "title": "2. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "kimya-term1-exam1",
+    "subject": "kimya",
+    "kind": "exam1",
+    "term": 1,
+    "title": "1. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "kimya-term1-exam2",
+    "subject": "kimya",
+    "kind": "exam2",
+    "term": 1,
+    "title": "1. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "kimya-term2-exam1",
+    "subject": "kimya",
+    "kind": "exam1",
+    "term": 2,
+    "title": "2. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "kimya-term2-exam2",
+    "subject": "kimya",
+    "kind": "exam2",
+    "term": 2,
+    "title": "2. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "biyoloji-term1-exam1",
+    "subject": "biyoloji",
+    "kind": "exam1",
+    "term": 1,
+    "title": "1. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "biyoloji-term1-exam2",
+    "subject": "biyoloji",
+    "kind": "exam2",
+    "term": 1,
+    "title": "1. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "biyoloji-term2-exam1",
+    "subject": "biyoloji",
+    "kind": "exam1",
+    "term": 2,
+    "title": "2. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "biyoloji-term2-exam2",
+    "subject": "biyoloji",
+    "kind": "exam2",
+    "term": 2,
+    "title": "2. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "fizik-term1-exam1",
+    "subject": "fizik",
+    "kind": "exam1",
+    "term": 1,
+    "title": "1. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "fizik-term1-exam2",
+    "subject": "fizik",
+    "kind": "exam2",
+    "term": 1,
+    "title": "1. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "fizik-term2-exam1",
+    "subject": "fizik",
+    "kind": "exam1",
+    "term": 2,
+    "title": "2. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "fizik-term2-exam2",
+    "subject": "fizik",
+    "kind": "exam2",
+    "term": 2,
+    "title": "2. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "tarih-term1-exam1",
+    "subject": "tarih",
+    "kind": "exam1",
+    "term": 1,
+    "title": "1. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "tarih-term1-exam2",
+    "subject": "tarih",
+    "kind": "exam2",
+    "term": 1,
+    "title": "1. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "tarih-term2-exam1",
+    "subject": "tarih",
+    "kind": "exam1",
+    "term": 2,
+    "title": "2. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "tarih-term2-exam2",
+    "subject": "tarih",
+    "kind": "exam2",
+    "term": 2,
+    "title": "2. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "edebiyat-term1-exam1",
+    "subject": "edebiyat",
+    "kind": "exam1",
+    "term": 1,
+    "title": "1. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "edebiyat-term1-exam2",
+    "subject": "edebiyat",
+    "kind": "exam2",
+    "term": 1,
+    "title": "1. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "edebiyat-term2-exam1",
+    "subject": "edebiyat",
+    "kind": "exam1",
+    "term": 2,
+    "title": "2. Dönem 1. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  },
+  {
+    "id": "edebiyat-term2-exam2",
+    "subject": "edebiyat",
+    "kind": "exam2",
+    "term": 2,
+    "title": "2. Dönem 2. Yazılı",
+    "status": "pending",
+    "scopeSourceUrl": null,
+    "questionIds": []
+  }
+]

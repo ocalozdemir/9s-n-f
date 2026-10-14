@@ -1,0 +1,98 @@
+[
+  {
+    "id": "matematik1",
+    "subject": "Matematik",
+    "title": "Matematik 9. Sınıf — 1. Kitap",
+    "url": "https://tymm.meb.gov.tr/kitap/41/matematik-9sinif-ders-kitabi-1kitap",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/matematik-9sinif-ders-kitabi-1kitap_20261006_102913_502.pdf",
+    "grade": 9,
+    "publisher": "MEB",
+    "status": "indexed",
+    "pageCount": 204,
+    "questionsImported": 1
+  },
+  {
+    "id": "matematik2",
+    "subject": "Matematik",
+    "title": "Matematik 9. Sınıf — 2. Kitap",
+    "url": "https://tymm.meb.gov.tr/kitap/42/matematik-9sinif-ders-kitabi-2kitap",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/matematik-9sinif-ders-kitabi-2kitap_20261006_104711_394.pdf",
+    "grade": 9,
+    "publisher": "MEB",
+    "status": "indexed",
+    "pageCount": 237,
+    "questionsImported": 4
+  },
+  {
+    "id": "cografya",
+    "subject": "Coğrafya",
+    "title": "Coğrafya 9. Sınıf",
+    "url": "https://tymm.meb.gov.tr/kitap/37/cografya-dersi-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/cografya-dersi-9sinif-ders-kitabi_20260907_201524_569.pdf",
+    "grade": 9,
+    "publisher": "MEB",
+    "status": "indexed",
+    "pageCount": 244,
+    "questionsImported": 8
+  },
+  {
+    "id": "kimya",
+    "subject": "Kimya",
+    "title": "Kimya 9. Sınıf",
+    "url": "https://tymm.meb.gov.tr/kitap/39/kimya-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/kimya-9sinif-ders-kitabi_20260908_105401_982.pdf",
+    "grade": 9,
+    "publisher": "MEB",
+    "status": "indexed",
+    "pageCount": 287,
+    "questionsImported": 6
+  },
+  {
+    "id": "biyoloji",
+    "subject": "Biyoloji",
+    "title": "Biyoloji 9. Sınıf",
+    "url": "https://tymm.meb.gov.tr/kitap/36/biyoloji-dersi-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/biyoloji-dersi-9sinif-ders-kitabi_20261006_220008_456.pdf",
+    "grade": 9,
+    "publisher": "MEB",
+    "status": "indexed",
+    "pageCount": 184,
+    "questionsImported": 7
+  },
+  {
+    "id": "fizik",
+    "subject": "Fizik",
+    "title": "Fizik 9. Sınıf",
+    "url": "https://tymm.meb.gov.tr/kitap/38/fizik-dersi-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/fizik-dersi-9sinif-ders-kitabi_20261006_194425_076.pdf",
+    "grade": 9,
+    "publisher": "MEB",
+    "status": "indexed",
+    "pageCount": 272,
+    "questionsImported": 5
+  },
+  {
+    "id": "tarih",
+    "subject": "Tarih",
+    "title": "Tarih 9. Sınıf",
+    "url": "https://tymm.meb.gov.tr/kitap/43/tarih-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/tarih-9sinif-ders-kitabi_20261006_121514_240.pdf",
+    "grade": 9,
+    "publisher": "MEB",
+    "status": "indexed",
+    "pageCount": 263,
+    "questionsImported": 2
+  },
+  {
+    "id": "edebiyat",
+    "subject": "Türk Dili ve Edebiyatı",
+    "title": "Türk Dili ve Edebiyatı 9. Sınıf",
+    "url": "https://tymm.meb.gov.tr/kitap/45/turk-dili-ve-edebiyati-9sinif-ders-kitabi",
+    "pdfUrl": "https://tymm.meb.gov.tr/assets/pdf/turk-dili-ve-edebiyati-9sinif-ders-kitabi_20261006_100252_162.pdf",
+    "grade": 9,
+    "publisher": "MEB",
+    "status": "indexed",
+    "pageCount": 317,
+    "questionsImported": 3
+  }
+]

@@ -1,0 +1,11 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {evaluate,validateBank} from '../engine.js';
+const q=(id,topic='Üslü ifadeler')=>({id,subject:'matematik',unit:'matematik-1',topic,outcome:'MAT.9.1.1',stem:'Soru '+id,options:['A','B'],answer:0,page:12,sourceId:'matematik1',explanation:'A doğrudur.',status:'verified',provenance:'verbatim'});
+const curriculum=[{id:'matematik',units:[{id:'matematik-1'}]}],sources=[{id:'matematik1'}];
+test('yanlış ve boşlar ayrı; 3 soruluk zayıf konu için tekrar önerilir',()=>{const r=evaluate([q('1'),q('2'),q('3')],{'1':0,'2':1});assert.deepEqual([r.correct,r.wrong,r.blank,r.percent],[1,1,1,33]);assert.equal(r.topics[0].assessment,'Tekrar çalış');assert.equal(r.rows[2].givenAnswer,null);});
+test('az sayıda doğru sorudan kesin başarı yorumu çıkarılmaz',()=>{assert.equal(evaluate([q('1')],{'1':0}).topics[0].assessment,'Daha fazla soru çöz');});
+test('boş test sıfıra bölünmez',()=>{assert.equal(evaluate([],{}).percent,0);});
+test('konular başarıya göre sıralanır ve kimlikler korunur',()=>{const r=evaluate([q('1','A'),q('2','B')],{'1':0,'2':1});assert.equal(r.topics[0].topic,'B');assert.equal(r.rows[1].id,'2');});
+test('banka bilinmeyen kaynak, cevap ve tekrarı reddeder',()=>{for(const invalid of [{...q('1'),sourceId:'missing'},{...q('1'),answer:2},{...q('1'),unit:'wrong'},{...q('1'),status:'draft'}])assert.throws(()=>validateBank({schemaVersion:1,questions:[invalid]},curriculum,sources));assert.throws(()=>validateBank({schemaVersion:1,questions:[q('1'),q('1')]},curriculum,sources));assert.throws(()=>validateBank({schemaVersion:1,questions:[q('2'),{...q('3'),stem:'Soru 2'}]},curriculum,sources));});
+test('doğru banka kabul edilir',()=>{assert.equal(validateBank({schemaVersion:1,questions:[q('1')]},curriculum,sources).length,1);});
+test('bir konudaki farklı kitap sayfaları kaynaklarıyla korunur',()=>{const r=evaluate([q('1'),{...q('2'),sourceId:'kitap2',page:20}],{});assert.deepEqual(r.topics[0].references,[{sourceId:'matematik1',pages:[12]},{sourceId:'kitap2',pages:[20]}]);});
+test('başka üniteye ait öğrenme çıktısı reddedilir',()=>{assert.throws(()=>validateBank({schemaVersion:1,questions:[q('1')]},[{id:'matematik',units:[{id:'matematik-1',outcomes:[{code:'MAT.9.2.1'}]}]}],sources));});
