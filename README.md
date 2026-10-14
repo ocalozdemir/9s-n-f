@@ -7,7 +7,7 @@
 - Matematik 1–2, coğrafya, kimya, biyoloji, fizik, tarih ve Türk dili ve edebiyatı: 7 ders, 8 ders kitabı ve matematik için ek MEB çalışma soruları kaynağı.
 - MEB'in program sayfalarından alınmış 30 ünite/tema.
 - Sekiz kitabın 2.008 PDF sayfasının dijital metin dizini; sayfa metinleri `ingestion/source-text/` altında sıkıştırılmış `.json.gz` dosyaları olarak tutulur. Bunlar ham kaynak metinleridir, soru olarak kullanılmaz.
-- Soru bankasında 177 soru: matematik 146, coğrafya 8, kimya 6, biyoloji 7, fizik 5, tarih 2, edebiyat 3. Matematiğin yedi teması da kullanılabilir.
+- Soru bankasında 280 soru: matematik 146, coğrafya 38, kimya 19, biyoloji 15, fizik 23, tarih 16, edebiyat 23. Yedi dersin 30 ünite/temasının tümünde test açılabilir. Yeni ünitelerde 5–8 soruluk ilk gruplar vardır; bütün kazanımların veya kitap sorularının tamamlandığı anlamına gelmez.
 - Matematik: Sayılar 14, Nicelikler ve Değişimler 52, Geometrik Şekiller 14, Eşlik ve Benzerlik 14, Algoritma ve Bilişim 20, İstatistiksel Araştırma Süreci 17, Veriden Olasılığa 15 soru.
 - 10 soru, 20 soru veya tüm sorularla test seçilebilir. Kısa testlerde konular sırayla örneklenir; sorular rastgele sıralanır.
 - Ek çalışma kaynağından güncel temalara eşleştirilen 75 soru, orijinal görselleri ve PDF’nin basılı 173. sayfasındaki MEB cevap anahtarıyla birlikte işlendi. Eski ünite numaraları, sitedeki güncel tema numaralarıyla karıştırılmamalıdır.

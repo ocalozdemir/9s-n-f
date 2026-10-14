@@ -33,7 +33,7 @@
     "publisher": "MEB",
     "status": "indexed",
     "pageCount": 244,
-    "questionsImported": 8
+    "questionsImported": 38
   },
   {
     "id": "kimya",
@@ -45,7 +45,7 @@
     "publisher": "MEB",
     "status": "indexed",
     "pageCount": 287,
-    "questionsImported": 6
+    "questionsImported": 19
   },
   {
     "id": "biyoloji",
@@ -57,7 +57,7 @@
     "publisher": "MEB",
     "status": "indexed",
     "pageCount": 184,
-    "questionsImported": 7
+    "questionsImported": 15
   },
   {
     "id": "fizik",
@@ -69,7 +69,7 @@
     "publisher": "MEB",
     "status": "indexed",
     "pageCount": 272,
-    "questionsImported": 5
+    "questionsImported": 23
   },
   {
     "id": "tarih",
@@ -81,7 +81,7 @@
     "publisher": "MEB",
     "status": "indexed",
     "pageCount": 263,
-    "questionsImported": 2
+    "questionsImported": 16
   },
   {
     "id": "edebiyat",
@@ -93,7 +93,7 @@
     "publisher": "MEB",
     "status": "indexed",
     "pageCount": 317,
-    "questionsImported": 3
+    "questionsImported": 23
   },
   {
     "id": "meb-calisma-matematik",

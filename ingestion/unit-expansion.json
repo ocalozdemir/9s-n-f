@@ -1,0 +1,729 @@
+{
+  "release": "0.3.0",
+  "addedQuestions": 103,
+  "method": "MEB textbook assessment/activity adaptations; independent content and solution review; official answer keys not accessed.",
+  "coverageNote": "All units have questions; this is not complete coverage of every outcome or every book question.",
+  "questions": [
+    {
+      "id": "cografya-p71-adapt-1a",
+      "sourceId": "cografya",
+      "page": 71,
+      "originalQuestion": "1a",
+      "outcome": "COĞ.9.2.1"
+    },
+    {
+      "id": "cografya-p71-adapt-1b",
+      "sourceId": "cografya",
+      "page": 71,
+      "originalQuestion": "1b",
+      "outcome": "COĞ.9.2.1"
+    },
+    {
+      "id": "cografya-p71-adapt-2",
+      "sourceId": "cografya",
+      "page": 71,
+      "originalQuestion": "2",
+      "outcome": "COĞ.9.2.1"
+    },
+    {
+      "id": "cografya-p72-adapt-3",
+      "sourceId": "cografya",
+      "page": 72,
+      "originalQuestion": "3",
+      "outcome": "COĞ.9.2.1"
+    },
+    {
+      "id": "cografya-p73-adapt-7",
+      "sourceId": "cografya",
+      "page": 73,
+      "originalQuestion": "7",
+      "outcome": "COĞ.9.2.1"
+    },
+    {
+      "id": "cografya-p134-adapt-9",
+      "sourceId": "cografya",
+      "page": 134,
+      "originalQuestion": "9",
+      "outcome": "COĞ.9.3.3"
+    },
+    {
+      "id": "cografya-p135-adapt-12",
+      "sourceId": "cografya",
+      "page": 135,
+      "originalQuestion": "12",
+      "outcome": "COĞ.9.3.3"
+    },
+    {
+      "id": "cografya-p135-adapt-13a",
+      "sourceId": "cografya",
+      "page": 135,
+      "originalQuestion": "13a",
+      "outcome": "COĞ.9.3.3"
+    },
+    {
+      "id": "cografya-p135-adapt-13b",
+      "sourceId": "cografya",
+      "page": 135,
+      "originalQuestion": "13b",
+      "outcome": "COĞ.9.3.3"
+    },
+    {
+      "id": "cografya-p133-adapt-8",
+      "sourceId": "cografya",
+      "page": 133,
+      "originalQuestion": "8",
+      "outcome": "COĞ.9.3.2"
+    },
+    {
+      "id": "cografya-p167-adapt-4a",
+      "sourceId": "cografya",
+      "page": 167,
+      "originalQuestion": "4a",
+      "outcome": "COĞ.9.4.2"
+    },
+    {
+      "id": "cografya-p167-adapt-4b",
+      "sourceId": "cografya",
+      "page": 167,
+      "originalQuestion": "4b",
+      "outcome": "COĞ.9.4.1"
+    },
+    {
+      "id": "cografya-p167-adapt-5",
+      "sourceId": "cografya",
+      "page": 167,
+      "originalQuestion": "5",
+      "outcome": "COĞ.9.4.3"
+    },
+    {
+      "id": "cografya-p168-adapt-7",
+      "sourceId": "cografya",
+      "page": 168,
+      "originalQuestion": "7",
+      "outcome": "COĞ.9.4.3"
+    },
+    {
+      "id": "cografya-p168-adapt-10",
+      "sourceId": "cografya",
+      "page": 168,
+      "originalQuestion": "10",
+      "outcome": "COĞ.9.4.4"
+    },
+    {
+      "id": "cografya-p184-adapt-1",
+      "sourceId": "cografya",
+      "page": 184,
+      "originalQuestion": "1",
+      "outcome": "COĞ.9.5.1"
+    },
+    {
+      "id": "cografya-p184-adapt-2",
+      "sourceId": "cografya",
+      "page": 184,
+      "originalQuestion": "2",
+      "outcome": "COĞ.9.5.1"
+    },
+    {
+      "id": "cografya-p184-adapt-3",
+      "sourceId": "cografya",
+      "page": 184,
+      "originalQuestion": "3",
+      "outcome": "COĞ.9.5.1"
+    },
+    {
+      "id": "cografya-p180-adapt-etkinlik-lojistik",
+      "sourceId": "cografya",
+      "page": 180,
+      "originalQuestion": "etkinlik-lojistik",
+      "outcome": "COĞ.9.5.1"
+    },
+    {
+      "id": "cografya-p180-adapt-etkinlik-enerji",
+      "sourceId": "cografya",
+      "page": 180,
+      "originalQuestion": "etkinlik-enerji",
+      "outcome": "COĞ.9.5.1"
+    },
+    {
+      "id": "cografya-p210-adapt-1",
+      "sourceId": "cografya",
+      "page": 210,
+      "originalQuestion": "1",
+      "outcome": "COĞ.9.6.1"
+    },
+    {
+      "id": "cografya-p210-adapt-2a",
+      "sourceId": "cografya",
+      "page": 210,
+      "originalQuestion": "2a",
+      "outcome": "COĞ.9.6.3"
+    },
+    {
+      "id": "cografya-p210-adapt-2b",
+      "sourceId": "cografya",
+      "page": 210,
+      "originalQuestion": "2b",
+      "outcome": "COĞ.9.6.3"
+    },
+    {
+      "id": "cografya-p211-adapt-5a",
+      "sourceId": "cografya",
+      "page": 211,
+      "originalQuestion": "5a",
+      "outcome": "COĞ.9.6.2"
+    },
+    {
+      "id": "cografya-p211-adapt-5b",
+      "sourceId": "cografya",
+      "page": 211,
+      "originalQuestion": "5b",
+      "outcome": "COĞ.9.6.2"
+    },
+    {
+      "id": "cografya-p226-adapt-2",
+      "sourceId": "cografya",
+      "page": 226,
+      "originalQuestion": "2",
+      "outcome": "COĞ.9.7.1"
+    },
+    {
+      "id": "cografya-p226-adapt-1",
+      "sourceId": "cografya",
+      "page": 226,
+      "originalQuestion": "1",
+      "outcome": "COĞ.9.7.1"
+    },
+    {
+      "id": "cografya-p226-adapt-3",
+      "sourceId": "cografya",
+      "page": 226,
+      "originalQuestion": "3",
+      "outcome": "COĞ.9.7.1"
+    },
+    {
+      "id": "cografya-p227-adapt-4",
+      "sourceId": "cografya",
+      "page": 227,
+      "originalQuestion": "4",
+      "outcome": "COĞ.9.7.1"
+    },
+    {
+      "id": "cografya-p226-adapt-2b",
+      "sourceId": "cografya",
+      "page": 226,
+      "originalQuestion": "2b",
+      "outcome": "COĞ.9.7.1"
+    },
+    {
+      "id": "kimya-p213-adapt-7",
+      "sourceId": "kimya",
+      "page": 213,
+      "originalQuestion": "7",
+      "outcome": "KİM.9.2.1"
+    },
+    {
+      "id": "kimya-p214-adapt-9",
+      "sourceId": "kimya",
+      "page": 214,
+      "originalQuestion": "9",
+      "outcome": "KİM.9.2.2"
+    },
+    {
+      "id": "kimya-p217-adapt-15",
+      "sourceId": "kimya",
+      "page": 217,
+      "originalQuestion": "15",
+      "outcome": "KİM.9.2.3"
+    },
+    {
+      "id": "kimya-p218-adapt-18",
+      "sourceId": "kimya",
+      "page": 218,
+      "originalQuestion": "18",
+      "outcome": "KİM.9.2.4"
+    },
+    {
+      "id": "kimya-p221-adapt-25",
+      "sourceId": "kimya",
+      "page": 221,
+      "originalQuestion": "25",
+      "outcome": "KİM.9.2.6"
+    },
+    {
+      "id": "kimya-p223-adapt-f",
+      "sourceId": "kimya",
+      "page": 223,
+      "originalQuestion": "f",
+      "outcome": "KİM.9.2.7"
+    },
+    {
+      "id": "kimya-p225-adapt-33",
+      "sourceId": "kimya",
+      "page": 225,
+      "originalQuestion": "33",
+      "outcome": "KİM.9.2.8"
+    },
+    {
+      "id": "kimya-p265-adapt-1",
+      "sourceId": "kimya",
+      "page": 265,
+      "originalQuestion": "1",
+      "outcome": "KİM.9.3.1"
+    },
+    {
+      "id": "kimya-p265-adapt-2",
+      "sourceId": "kimya",
+      "page": 265,
+      "originalQuestion": "2",
+      "outcome": "KİM.9.3.1"
+    },
+    {
+      "id": "kimya-p265-adapt-3",
+      "sourceId": "kimya",
+      "page": 265,
+      "originalQuestion": "3",
+      "outcome": "KİM.9.3.1"
+    },
+    {
+      "id": "kimya-p266-adapt-4",
+      "sourceId": "kimya",
+      "page": 266,
+      "originalQuestion": "4",
+      "outcome": "KİM.9.3.2"
+    },
+    {
+      "id": "kimya-p264-adapt-kontrol-2",
+      "sourceId": "kimya",
+      "page": 264,
+      "originalQuestion": "kontrol-2",
+      "outcome": "KİM.9.3.2"
+    },
+    {
+      "id": "kimya-p266-adapt-5",
+      "sourceId": "kimya",
+      "page": 266,
+      "originalQuestion": "5",
+      "outcome": "KİM.9.3.2"
+    },
+    {
+      "id": "biyoloji-p151-adapt-2",
+      "sourceId": "biyoloji",
+      "page": 151,
+      "originalQuestion": "2",
+      "outcome": "BİY.9.2.2"
+    },
+    {
+      "id": "biyoloji-p152-adapt-3",
+      "sourceId": "biyoloji",
+      "page": 152,
+      "originalQuestion": "3",
+      "outcome": "BİY.9.2.2"
+    },
+    {
+      "id": "biyoloji-p152-adapt-5",
+      "sourceId": "biyoloji",
+      "page": 152,
+      "originalQuestion": "5",
+      "outcome": "BİY.9.2.3"
+    },
+    {
+      "id": "biyoloji-p154-adapt-11",
+      "sourceId": "biyoloji",
+      "page": 154,
+      "originalQuestion": "11",
+      "outcome": "BİY.9.2.4"
+    },
+    {
+      "id": "biyoloji-p154-adapt-14",
+      "sourceId": "biyoloji",
+      "page": 154,
+      "originalQuestion": "14",
+      "outcome": "BİY.9.2.4"
+    },
+    {
+      "id": "biyoloji-p155-adapt-16",
+      "sourceId": "biyoloji",
+      "page": 155,
+      "originalQuestion": "16",
+      "outcome": "BİY.9.2.5"
+    },
+    {
+      "id": "biyoloji-p151-adapt-1",
+      "sourceId": "biyoloji",
+      "page": 151,
+      "originalQuestion": "1",
+      "outcome": "BİY.9.2.1"
+    },
+    {
+      "id": "biyoloji-p154-adapt-11b",
+      "sourceId": "biyoloji",
+      "page": 154,
+      "originalQuestion": "11b",
+      "outcome": "BİY.9.2.4"
+    },
+    {
+      "id": "fizik-p117-adapt-1a",
+      "sourceId": "fizik",
+      "page": 117,
+      "originalQuestion": "1a",
+      "outcome": "FİZ.9.2.1"
+    },
+    {
+      "id": "fizik-p117-adapt-1ç",
+      "sourceId": "fizik",
+      "page": 117,
+      "originalQuestion": "1ç",
+      "outcome": "FİZ.9.2.2"
+    },
+    {
+      "id": "fizik-p117-adapt-1d",
+      "sourceId": "fizik",
+      "page": 117,
+      "originalQuestion": "1d",
+      "outcome": "FİZ.9.2.2"
+    },
+    {
+      "id": "fizik-p120-adapt-4a",
+      "sourceId": "fizik",
+      "page": 120,
+      "originalQuestion": "4a",
+      "outcome": "FİZ.9.2.6"
+    },
+    {
+      "id": "fizik-p120-adapt-4b",
+      "sourceId": "fizik",
+      "page": 120,
+      "originalQuestion": "4b",
+      "outcome": "FİZ.9.2.6"
+    },
+    {
+      "id": "fizik-p120-adapt-4c",
+      "sourceId": "fizik",
+      "page": 120,
+      "originalQuestion": "4c",
+      "outcome": "FİZ.9.2.6"
+    },
+    {
+      "id": "fizik-p196-adapt-1b",
+      "sourceId": "fizik",
+      "page": 196,
+      "originalQuestion": "1b",
+      "outcome": "FİZ.9.3.1"
+    },
+    {
+      "id": "fizik-p197-adapt-2a",
+      "sourceId": "fizik",
+      "page": 197,
+      "originalQuestion": "2a",
+      "outcome": "FİZ.9.3.2"
+    },
+    {
+      "id": "fizik-p197-adapt-2b",
+      "sourceId": "fizik",
+      "page": 197,
+      "originalQuestion": "2b",
+      "outcome": "FİZ.9.3.2"
+    },
+    {
+      "id": "fizik-p197-adapt-2c",
+      "sourceId": "fizik",
+      "page": 197,
+      "originalQuestion": "2c",
+      "outcome": "FİZ.9.3.2"
+    },
+    {
+      "id": "fizik-p200-adapt-5a",
+      "sourceId": "fizik",
+      "page": 200,
+      "originalQuestion": "5a",
+      "outcome": "FİZ.9.3.5"
+    },
+    {
+      "id": "fizik-p200-adapt-5b",
+      "sourceId": "fizik",
+      "page": 200,
+      "originalQuestion": "5b",
+      "outcome": "FİZ.9.3.6"
+    },
+    {
+      "id": "fizik-p255-adapt-1b",
+      "sourceId": "fizik",
+      "page": 255,
+      "originalQuestion": "1b",
+      "outcome": "FİZ.9.4.1"
+    },
+    {
+      "id": "fizik-p258-adapt-4a",
+      "sourceId": "fizik",
+      "page": 258,
+      "originalQuestion": "4a",
+      "outcome": "FİZ.9.4.3"
+    },
+    {
+      "id": "fizik-p258-adapt-4c",
+      "sourceId": "fizik",
+      "page": 258,
+      "originalQuestion": "4c",
+      "outcome": "FİZ.9.4.4"
+    },
+    {
+      "id": "fizik-p258-adapt-4ç",
+      "sourceId": "fizik",
+      "page": 258,
+      "originalQuestion": "4ç",
+      "outcome": "FİZ.9.4.4"
+    },
+    {
+      "id": "fizik-p264-adapt-10a",
+      "sourceId": "fizik",
+      "page": 264,
+      "originalQuestion": "10a",
+      "outcome": "FİZ.9.4.6"
+    },
+    {
+      "id": "fizik-p264-adapt-10c",
+      "sourceId": "fizik",
+      "page": 264,
+      "originalQuestion": "10c",
+      "outcome": "FİZ.9.4.6"
+    },
+    {
+      "id": "tarih-p61-adapt-1-adapt",
+      "sourceId": "tarih",
+      "page": 61,
+      "originalQuestion": "1-adapt",
+      "outcome": "TAR.9.1.2"
+    },
+    {
+      "id": "tarih-p62-adapt-3",
+      "sourceId": "tarih",
+      "page": 62,
+      "originalQuestion": "3",
+      "outcome": "TAR.9.1.4"
+    },
+    {
+      "id": "tarih-p62-adapt-4",
+      "sourceId": "tarih",
+      "page": 62,
+      "originalQuestion": "4",
+      "outcome": "TAR.9.1.3"
+    },
+    {
+      "id": "tarih-p155-adapt-1",
+      "sourceId": "tarih",
+      "page": 155,
+      "originalQuestion": "1",
+      "outcome": "TAR.9.2.1"
+    },
+    {
+      "id": "tarih-p155-adapt-2",
+      "sourceId": "tarih",
+      "page": 155,
+      "originalQuestion": "2",
+      "outcome": "TAR.9.2.1"
+    },
+    {
+      "id": "tarih-p156-adapt-4",
+      "sourceId": "tarih",
+      "page": 156,
+      "originalQuestion": "4",
+      "outcome": "TAR.9.2.2"
+    },
+    {
+      "id": "tarih-p156-adapt-5",
+      "sourceId": "tarih",
+      "page": 156,
+      "originalQuestion": "5",
+      "outcome": "TAR.9.2.2"
+    },
+    {
+      "id": "tarih-p157-adapt-8",
+      "sourceId": "tarih",
+      "page": 157,
+      "originalQuestion": "8",
+      "outcome": "TAR.9.2.2"
+    },
+    {
+      "id": "tarih-p157-adapt-9",
+      "sourceId": "tarih",
+      "page": 157,
+      "originalQuestion": "9",
+      "outcome": "TAR.9.2.5"
+    },
+    {
+      "id": "tarih-p245-adapt-2",
+      "sourceId": "tarih",
+      "page": 245,
+      "originalQuestion": "2",
+      "outcome": "TAR.9.3.1"
+    },
+    {
+      "id": "tarih-p245-adapt-3",
+      "sourceId": "tarih",
+      "page": 245,
+      "originalQuestion": "3",
+      "outcome": "TAR.9.3.1"
+    },
+    {
+      "id": "tarih-p246-adapt-5a",
+      "sourceId": "tarih",
+      "page": 246,
+      "originalQuestion": "5a",
+      "outcome": "TAR.9.3.1"
+    },
+    {
+      "id": "tarih-p246-adapt-5b",
+      "sourceId": "tarih",
+      "page": 246,
+      "originalQuestion": "5b",
+      "outcome": "TAR.9.3.2"
+    },
+    {
+      "id": "tarih-p246-adapt-5c",
+      "sourceId": "tarih",
+      "page": 246,
+      "originalQuestion": "5c",
+      "outcome": "TAR.9.3.1"
+    },
+    {
+      "id": "edebiyat-p68-adapt-7e",
+      "sourceId": "edebiyat",
+      "page": 68,
+      "originalQuestion": "7e",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p68-adapt-7-teshis",
+      "sourceId": "edebiyat",
+      "page": 68,
+      "originalQuestion": "7-teshis",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p69-adapt-8",
+      "sourceId": "edebiyat",
+      "page": 69,
+      "originalQuestion": "8",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p144-adapt-6",
+      "sourceId": "edebiyat",
+      "page": 144,
+      "originalQuestion": "6",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p144-adapt-7",
+      "sourceId": "edebiyat",
+      "page": 144,
+      "originalQuestion": "7",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p145-adapt-9-anlatici",
+      "sourceId": "edebiyat",
+      "page": 145,
+      "originalQuestion": "9-anlatici",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p145-adapt-9-mekan",
+      "sourceId": "edebiyat",
+      "page": 145,
+      "originalQuestion": "9-mekan",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p146-adapt-13-adapt",
+      "sourceId": "edebiyat",
+      "page": 146,
+      "originalQuestion": "13-adapt",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p208-adapt-9-betul",
+      "sourceId": "edebiyat",
+      "page": 208,
+      "originalQuestion": "9-betul",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p208-adapt-9-demir",
+      "sourceId": "edebiyat",
+      "page": 208,
+      "originalQuestion": "9-demir",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p208-adapt-9-ali",
+      "sourceId": "edebiyat",
+      "page": 208,
+      "originalQuestion": "9-ali",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p209-adapt-14",
+      "sourceId": "edebiyat",
+      "page": 209,
+      "originalQuestion": "14",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p209-adapt-13",
+      "sourceId": "edebiyat",
+      "page": 209,
+      "originalQuestion": "13",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p210-adapt-18",
+      "sourceId": "edebiyat",
+      "page": 210,
+      "originalQuestion": "18",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p298-adapt-9",
+      "sourceId": "edebiyat",
+      "page": 298,
+      "originalQuestion": "9",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p297-adapt-8",
+      "sourceId": "edebiyat",
+      "page": 297,
+      "originalQuestion": "8",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p298-adapt-10",
+      "sourceId": "edebiyat",
+      "page": 298,
+      "originalQuestion": "10",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p299-adapt-11",
+      "sourceId": "edebiyat",
+      "page": 299,
+      "originalQuestion": "11",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p299-adapt-13",
+      "sourceId": "edebiyat",
+      "page": 299,
+      "originalQuestion": "13",
+      "outcome": "TDE2.2"
+    },
+    {
+      "id": "edebiyat-p297-adapt-bolum-benzetme",
+      "sourceId": "edebiyat",
+      "page": 297,
+      "originalQuestion": "bolum-benzetme",
+      "outcome": "TDE2.2"
+    }
+  ]
+}
